@@ -1,0 +1,190 @@
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        min-height: 100vh;
+        font-weight: 400;
+    }
+
+    body {
+        background-color: #674BAF;
+        background-image: url("../images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100vw;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mockups{
+        width: 100%;
+    }
+
+    .logo{
+        width: 40vw;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        display: block;
+    }
+
+    .content{
+        max-width: 90vw;
+        margin: 0 auto;
+
+    }
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 5vw;
+        color: white;
+        font-weight: 600;
+    }
+
+    p{
+        color: #fff;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    .btn-container{
+        padding-top: 3rem;
+    }
+
+    .btn{
+        background: #fff;
+        color: #674BAF;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0 4px 6px -6px black;
+        text-decoration: unset;
+        padding: 20px 30px;
+        max-width: 60vw;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 100px;
+        display: block;
+    }
+    .attribution a { 
+        color: white;
+    }
+
+    .social-media{
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .social-media ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .social-media ul li{
+        display: inline-block;
+    }
+
+    .social-media ul li:nth-child(2){
+        margin: 0 15px;
+    }
+
+    .social-media ul li:nth-child(1) i{
+        padding-left: 13px !important;
+        padding-right: 13px;
+    }
+
+    .fab{
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    
+@media only screen and (min-width: 768px){
+
+    body {
+        background-color: #674BAF;
+        background-image: url("../images/bg-desktop.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .logo{
+        display: block;
+        padding-bottom: 5vw;
+        width: 20%;
+    }
+
+    .content{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 2.2em;
+        text-align: left;
+        padding-left: 3vw;
+    }
+
+    .row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .col-1{
+    
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+
+    .col-2{
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+    .btn{
+        font-size: 1.1em;
+        width: 15vw;
+        margin: 0 0 0 3vw;
+    }
+
+    .description{
+        text-align: left;
+        font-size: 1.2em;
+        padding-left: 3vw;
+    }
+
+    .social-media{
+        text-align: right;
+        padding-top: 4vw;
+    }
+    
+
+}
+
+  
